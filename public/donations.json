@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://i.ibb.co/Sfj6cg7/prasesh-shiwakoti-lomash-mo-Hi-Hqdm-UYY-unsplash.jpg",
+        "category": "Health",
+        "amount": 199.99,
+        "title": "Clean Water for Children",
+        "description": "Contribute to our Health category and provide clean and safe drinking water to children in underserved communities. Your donation of $199.99 will make a significant impact on their health and well-being."
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://i.ibb.co/2KLnMcc/andri-helmansyah-TDWg-UTXm-GVI-unsplash.jpg",
+        "category": "Education",
+        "amount": 49.99,
+        "title": "Quality Education Access",
+        "description": "Support our Education category and empower underserved students with access to quality education. Your contribution of $49.99 will fund scholarships and educational programs, giving them a brighter future."
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://i.ibb.co/cJ64ShL/artificial-photography-v-B5qtt8-X4-NA-unsplash.jpg",
+        "category": "Clothing",
+        "amount": 24.99,
+        "title": "Warmth Through Used Clothing",
+        "description": "Help those in need through our Clothing category by donating gently used clothing. Your generous donation of $24.99 will provide warmth and dignity to individuals facing hardship."
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://i.ibb.co/J5Zvj0S/joel-muniz-3k3l2brxmw-Q-unsplash.jpg",
+        "category": "Food",
+        "amount": 79.99,
+        "title": "Nutritious Meals for All",
+        "description": "Combat hunger and promote better health in our Food category by supporting our initiative to provide nutritious meals to those in need. Your donation of $79.99 will make a real difference."
+    },
+    {
+        "id": 5,
+        "imageUrl": "https://i.ibb.co/GRQJwDw/kate-remmer-RZn4-Fz-NUCY-unsplash.jpg",
+        "category": "Food",
+        "amount": 29.99,
+        "title": "Comforting Plush Toys for Kids",
+        "description": "Bring smiles to children's faces in our Food category with cuddly stuffed animals. Your donation of $29.99 will provide comfort and companionship to kids in difficult circumstances."
+    },
+    {
+        "id": 6,
+        "imageUrl": "https://i.ibb.co/PtG9Krs/joyce-romero-t-C-TOGGEODI-unsplash.jpg",
+        "category": "Clothing",
+        "amount": 149.99,
+        "title": "Support Youth Tennis Programs",
+        "description": "Equip young athletes in our Clothing category with high-performance tennis rackets. Your contribution of $149.99 will help them excel in their sports journey."
+    },
+    {
+        "id": 7,
+        "imageUrl": "https://i.ibb.co/4RKn6ZN/andri-helmansyah-e9t-COGG40mw-unsplash.jpg",
+        "category": "Education",
+        "amount": 39.99,
+        "title": "Culinary Dreams Come True",
+        "description": "Empower aspiring chefs in our Education category with durable non-stick frying pans. Your donation of $39.99 supports culinary education and skill development."
+    },
+    {
+        "id": 8,
+        "imageUrl": "https://i.ibb.co/BLYvbgK/nguy-n-hi-p-ufw-C2cmbaa-I-unsplash.jpg",
+        "category": "Health",
+        "amount": 69.99,
+        "title": "Radiant Skin with Skincare Set",
+        "description": "Promote healthy and radiant skin in our Health category with a complete skincare set. Your contribution of $69.99 will make a positive difference."
+    },
+    {
+        "id": 9,
+        "imageUrl": "https://i.ibb.co/ZS1fCFf/alexander-grey-tr1po6k-OWEc-unsplash.jpg",
+        "category": "Health",
+        "amount": 59.99,
+        "title": "Green Thumbs with Garden Tools",
+        "description": "Nurture beautiful gardens and green spaces in our Health category by equipping gardening enthusiasts with essential tools. Your donation of $59.99 empowers green thumbs."
+    },
+    {
+        "id": 10,
+        "imageUrl": "https://i.ibb.co/xJDjcn8/raka-dwi-wicaksana-Jbk-Tce8-Z1-U-unsplash.jpg",
+        "category": "Education",
+        "amount": 299.99,
+        "title": "Empower Through Powerful Laptops",
+        "description": "Open doors to new opportunities in our Education category by supporting education and career advancement with high-performance laptops. Your donation of $299.99 is a game-changer."
+    },
+    {
+        "id": 11,
+        "imageUrl": "https://i.ibb.co/6tfj44T/priscilla-du-preez-my5cw-Tzhm-NI-unsplash.jpg",
+        "category": "Clothing",
+        "amount": 79.99,
+        "title": "Classic Denim Jeans for All",
+        "description": "Give the gift of timeless style in our Clothing category with classic denim jeans. Your donation of $79.99 provides comfortable and versatile clothing for everyday wear."
+    },
+    {
+        "id": 12,
+        "imageUrl": "https://i.ibb.co/2cZQMKS/masjid-maba-stj-VLu26o-B8-unsplash.jpg",
+        "category": "Food",
+        "amount": 14.99,
+        "title": "Unravel Mysteries with Captivating Novels",
+        "description": "Immerse yourself in captivating mystery novels in our Food category. Your donation of $14.99 supports literacy and the joy of reading for all."
+    }
+]

@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://i.ibb.co/HqvY1Mg/prasesh-shiwakoti-lomash-mo-Hi-Hqdm-UYY-unsplash.jpg",
+        "category": "Health",
+        "amount": 199.99,
+        "title": "Medicine And Vaccine",
+        "description": "Contribute to our Health category and provide clean and safe drinking water to children in underserved communities. Your donation of $199.99 will make a significant impact on their health and well-being.",
+        "colors": [
+            "#d9e5ff",
+            "#aec8ff",
+            "#0052FF"
+        ]
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://i.ibb.co/wLh9z7k/andri-helmansyah-TDWg-UTXm-GVI-unsplash.jpg",
+        "category": "Education",
+        "amount": 49.99,
+        "title": "Quality Education Access",
+        "description": "Support our Education category and empower underserved students with access to quality education. Your contribution of $49.99 will fund scholarships and educational programs, giving them a brighter future.",
+        "colors": [
+            "#ffe3e4",
+            "#ffc3c5",
+            "#FF444A"
+        ]
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://i.ibb.co/jzh55BY/artificial-photography-v-B5qtt8-X4-NA-unsplash-1.jpg",
+        "category": "Clothing",
+        "amount": 24.99,
+        "title": "Warmth Through Used Clothing",
+        "description": "Help those in need through our Clothing category by donating gently used clothing. Your generous donation of $24.99 will provide warmth and dignity to individuals facing hardship.",
+        "colors": [
+            "#ebf6e2",
+            "#d4ecc1",
+            "#79C23F"
+        ]
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://i.ibb.co/XxvqHyx/joel-muniz-3k3l2brxmw-Q-unsplash.jpg",
+        "category": "Food",
+        "amount": 79.99,
+        "title": "Nutritious Meals for All",
+        "description": "Combat hunger and promote better health in our Food category by supporting our initiative to provide nutritious meals to those in need. Your donation of $79.99 will make a real difference.",
+        "colors": [
+            "#feeae3",
+            "#fdd2c4",
+            "#F87147"
+        ]
+    },
+    {
+        "id": 5,
+        "imageUrl": "https://i.ibb.co/XCR0ZRc/kate-remmer-RZn4-Fz-NUCY-unsplash.jpg",
+        "category": "Food",
+        "amount": 29.99,
+        "title": "Healthy Foods For Them Who Need",
+        "description": "Bring smiles to children's faces in our Food category with cuddly stuffed animals. Your donation of $29.99 will provide comfort and companionship to kids in difficult circumstances.",
+        "colors": [
+            "#feeae3",
+            "#fdd2c4",
+            "#F87147"
+        ]
+    },
+    {
+        "id": 6,
+        "imageUrl": "https://i.ibb.co/7Qkhtbx/joyce-romero-t-C-TOGGEODI-unsplash.jpg",
+        "category": "Clothing",
+        "amount": 149.99,
+        "title": "Support Poor with Home Stuff",
+        "description": "Equip young athletes in our Clothing category with high-performance tennis rackets. Your contribution of $149.99 will help them excel in their sports journey.",
+        "colors": [
+            "#ebf6e2",
+            "#d4ecc1",
+            "#79C23F"
+        ]
+    },
+    {
+        "id": 7,
+        "imageUrl": "https://i.ibb.co/1Zqx1d0/andri-helmansyah-e9t-COGG40mw-unsplash-1.jpg",
+        "category": "Education",
+        "amount": 39.99,
+        "title": "Education For kids to Grow As Real Human",
+        "description": "Empower aspiring chefs in our Education category with durable non-stick frying pans. Your donation of $39.99 supports culinary education and skill development.",
+        "colors": [
+            "#ffe3e4",
+            "#ffc3c5",
+            "#FF444A"
+        ]
+    },
+    {
+        "id": 8,
+        "imageUrl": "https://i.ibb.co/D8zP6nS/nguy-n-hi-p-ufw-C2cmbaa-I-unsplash-1.jpg",
+        "category": "Health",
+        "amount": 69.99,
+        "title": "Giving Poor Heart patient Treatments",
+        "description": "Promote healthy and radiant skin in our Health category with a complete skincare set. Your contribution of $69.99 will make a positive difference.",
+        "colors": [
+            "#d9e5ff",
+            "#aec8ff",
+            "#0052FF"
+        ]
+    },
+    {
+        "id": 9,
+        "imageUrl": "https://i.ibb.co/hfcgPbc/alexander-grey-tr1po6k-OWEc-unsplash-1.jpg",
+        "category": "Health",
+        "amount": 59.99,
+        "title": "Medicine For Everyone",
+        "description": "Nurture beautiful gardens and green spaces in our Health category by equipping gardening enthusiasts with essential tools. Your donation of $59.99 empowers green thumbs.",
+        "colors": [
+            "#d9e5ff",
+            "#aec8ff",
+            "#0052FF"
+        ]
+    },
+    {
+        "id": 10,
+        "imageUrl": "https://i.ibb.co/q0mPk5f/raka-dwi-wicaksana-Jbk-Tce8-Z1-U-unsplash-1.jpg",
+        "amount": 299.99,
+        "title": "Education For Characteristic Qualities",
+        "description": "Open doors to new opportunities in our Education category by supporting education and career advancement with high-performance laptops. Your donation of $299.99 is a game-changer.",
+        "colors": [
+            "#ffe3e4",
+            "#ffc3c5",
+            "#FF444A"
+        ]
+    },
+    {
+        "id": 11,
+        "imageUrl": "https://i.ibb.co/Yh2gjpq/priscilla-du-preez-my5cw-Tzhm-NI-unsplash-1.jpg",
+        "category": "Clothing",
+        "amount": 79.99,
+        "title": "Warmth In Winter For Everyone",
+        "description": "Give the gift of timeless style in our Clothing category with classic denim jeans. Your donation of $79.99 provides comfortable and versatile clothing for everyday wear.",
+        "colors": [
+            "#ebf6e2",
+            "#d4ecc1",
+            "#79C23F"
+        ]
+    },
+    {
+        "id": 12,
+        "imageUrl": "https://i.ibb.co/HrxWF1h/masjid-maba-stj-VLu26o-B8-unsplash-1.jpg",
+        "category": "Food",
+        "amount": 14.99,
+        "title": "Most Nutritious Food For All",
+        "description": "Immerse yourself in captivating mystery novels in our Food category. Your donation of $14.99 supports literacy and the joy of reading for all.",
+        "colors": [
+            "#feeae3",
+            "#fdd2c4",
+            "#F87147"
+        ]
+    }
+]

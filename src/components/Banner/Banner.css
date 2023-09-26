@@ -1,0 +1,19 @@
+.banner {
+    position: relative;
+    height: 600px;
+}
+
+.banner::after {
+    content: "";
+    background: url('../../../public/fc1f79e18cdc1a12320b9b10ec3e253d.jpeg');
+    opacity: 0.04;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

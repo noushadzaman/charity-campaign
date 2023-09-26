@@ -10,6 +10,7 @@ import Statistics from './components/Statistics/Statistics';
 import Donation from './components/Donation/Donation';
 import Donations from './components/Donations/Donations';
 import DonationDetail from './components/DonationDetail/DonationDetail';
+import { getDonations } from './utilities/fakeDb';
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/statistics',
-        element: <Statistics></Statistics>
+        element: <Statistics></Statistics>,
+        loader: getDonations
       },
       {
         path: '/donationdetail/:id',

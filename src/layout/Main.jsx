@@ -20,7 +20,6 @@ const Main = () => {
                 pauseOnHover
                 theme="light"
             />
-            {/* Same as */}
             <ToastContainer />
         </div>
     );

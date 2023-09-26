@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import './DonationCard.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const DonationCard = ({ donation }) => {
     const { id, imageUrl, category, title, colors } = donation;
@@ -9,12 +9,12 @@ const DonationCard = ({ donation }) => {
     const navigate = useNavigate();
 
     const handleShowDetail = () => {
-        navigate(`/donationdetail/${id}`)
+        navigate(`/donationdetail/${id}`);
     }
 
     return (
         <div
-        onClick={handleShowDetail} className={`rounded-lg h-[320px] w-[312px] justify-self-center bg-[${first}]`}>
+            onClick={handleShowDetail} className={`rounded-lg h-[320px] w-[312px] justify-self-center bg-[${first}]`}>
 
             <img className='w-[100%] h-[200px] rounded-t-lg' src={imageUrl} alt="" />
 

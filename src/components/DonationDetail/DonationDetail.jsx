@@ -1,16 +1,46 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { addToDonations } from "../../utilities/fakeDb";
+import { addToDonations, getDonations } from "../../utilities/fakeDb";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DonationDetail = () => {
-    const donations = useLoaderData();
-    console.log(donations);
+    const allDonations = useLoaderData();
     const id = useParams();
-    const donation = donations.find(donation => donation.id == id.id);
+    const donation = allDonations.find(donation => donation.id == id.id);
     const { imageUrl, amount, title, description } = donation;
 
     const handleDonation = (id) => {
-        addToDonations(id);
-        console.log(id)
+        const donations = getDonations();
+        console.log(donations);
+        console.log(id);
+        const exist = donations.find(donation => donation == id);
+        console.log(exist);
+        if (!exist) {
+            addToDonations(id);
+            console.log(id)
+            toast.success(`Donated $${amount}`, {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
+        }
+        else {
+            toast.error(`Already donated here`, {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: 'light',
+            });
+        }
     }
 
     return (

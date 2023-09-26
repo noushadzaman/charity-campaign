@@ -6,7 +6,7 @@ const Statistics = () => {
 
     const data = [
         { name: 'Group A', value: donations.length },
-        { name: 'Group B', value: 12 },
+        { name: 'Group B', value: 12-donations.length },
     ];
 
     const COLORS = ['#00C49F', '#FF444A'];

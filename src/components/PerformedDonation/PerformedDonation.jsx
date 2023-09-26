@@ -4,7 +4,7 @@ const PerformedDonation = ({ donation }) => {
     const [first, second, third] = colors;
 
     return (
-        <div className={`flex bg-[${first}]`}>
+        <div className={`flex bg-[${first}] rounded-lg`}>
             <img className="w-[312px] h-[100%] rounded-l-lg" src={imageUrl} alt="" />
             <div>
                 <div className='mt-[16px] mx-[16px]'>

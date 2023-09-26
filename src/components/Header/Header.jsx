@@ -15,7 +15,7 @@ const Header = () => {
                         <NavLink to="/statistics">Statistics</NavLink>
                     </div>
                 </div>
-                <a className="h-[52px] normal-case text-xl"><img src="public/Logo.png" alt="" /></a>
+                <a className="h-[52px] normal-case text-xl"><img src="Logo.png" alt="" /></a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <div className="menu menu-horizontal px-1 flex gap-5">

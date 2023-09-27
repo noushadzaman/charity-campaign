@@ -4,5 +4,5 @@
 * Dynamic Routing Through React Router
 * Local Storage Integration For Data Storing
 * Rechart Integrated For Showing a 'Pie Chart' using Donation Calculation
-* 
+* Search & See All Method
 * React Toastify Integrated

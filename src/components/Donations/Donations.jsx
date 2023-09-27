@@ -1,23 +1,32 @@
-import { useLoaderData } from "react-router-dom";
-import Banner from "../Banner/Banner";
+import PropTypes from 'prop-types';
 import DonationCard from "../DonationCard/DonationCard";
 
-const Donations = () => {
-    const donations = useLoaderData();
+const Donations = ({ donations, searchDonations }) => {
+
 
     return (
         <div>
-            <Banner></Banner>
             <div className="grid lg:grid-cols-4 md:grid-cols-2 mt-[100px] mb-[182px] lg:w-[1318px] gap-[24px] mx-auto">
                 {
-                    donations.map(donation => <DonationCard
-                        key={donation.id}
-                        donation={donation}
-                    ></DonationCard>)
+                    searchDonations.length != 0 ?
+
+                        searchDonations.map(donation => <DonationCard
+                            key={donation.id}
+                            donation={donation}
+                        ></DonationCard>) :
+                        donations.map(donation => <DonationCard
+                            key={donation.id}
+                            donation={donation}
+                        ></DonationCard>)
                 }
             </div>
         </div>
     );
+};
+
+Donations.propTypes = {
+    donations: PropTypes.array.isRequired,
+    searchDonations: PropTypes.array.isRequired,
 };
 
 export default Donations;

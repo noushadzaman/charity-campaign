@@ -11,7 +11,7 @@ import DonationDetail from './components/DonationDetail/DonationDetail';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
 import { getDonations } from './utilities/fakeDb';
-import Donations from './components/Donations/Donations';
+import Banner from './components/Banner/Banner';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +20,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Donations></Donations>,
-        loader: () => fetch('donations.json')
+        element: <Banner></Banner>
+        // loader: () => fetch('donations.json')
       },
       {
         path: '/donation',

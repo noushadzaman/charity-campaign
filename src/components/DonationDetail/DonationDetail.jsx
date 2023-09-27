@@ -55,7 +55,7 @@ const DonationDetail = () => {
                     <p>Donate ${amount}</p>
                 </button>
             </div>
-            <div className="max-w-[1200px]">
+            <div className="max-w-[1200px] mb-[20px] mx-[20px]">
                 <h2 className="mt-[56px] mb-[24px] text-[24px] font-bold">{title}</h2>
                 <p className="text-[#545454]">{description}</p>
             </div>

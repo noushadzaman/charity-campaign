@@ -6,7 +6,7 @@ const PerformedDonation = ({ donation }) => {
 
     return (
         <div className={`flex bg-[${first}] rounded-lg`}>
-            <img className="w-[312px] h-[100%] rounded-l-lg" src={imageUrl} alt="" />
+            <img className="w-[270px] md:w-[312px] h-[100%] rounded-l-lg" src={imageUrl} alt="" />
             <div>
                 <div className='mt-[16px] mx-[16px]'>
                     <span className={`rounded px-[10px] py-[4px] text-[14px] bg-[${second}] text-[${third}]`}>{category}</span>

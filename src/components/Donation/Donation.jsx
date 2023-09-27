@@ -20,7 +20,7 @@ const Donation = () => {
     }
     return (
         <div className="flex flex-col items-center pb-[105px]">
-            <div className="grid grid-cols-2 gap-[24px] mx-auto max-w-[1300px] pt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-[24px] mx-auto max-w-[1300px] pt-[100px] mx-[20px]">
                 {
                     performedDonations.slice(0, lengthState).map(donation => <PerformedDonation
                         key={donation.id}
@@ -29,7 +29,7 @@ const Donation = () => {
                 }
             </div>
             {
-                lengthState === 4 && <button className="btn bg-[#009444] mt-[50px] text-[white]" onClick={seeMore}> See All</button>
+                (lengthState === 4 && performedDonations.length > 4 ) && <button className="btn bg-[#009444] mt-[50px] text-[white]" onClick={seeMore}> See All</button>
             }
         </div>
     );

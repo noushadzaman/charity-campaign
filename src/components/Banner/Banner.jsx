@@ -23,9 +23,11 @@ const Banner = () => {
         event.preventDefault();
         const searchValue = event.target.search.value;
         const firstLetter = searchValue.slice(0, 1).toUpperCase();
-        const rest = searchValue.slice(1, searchValue.length);
+        const restInput = searchValue.slice(1, searchValue.length);
+        const rest = restInput.toLowerCase()
         const searchText = firstLetter + rest;
         setSearch(searchText);
+        event.target.reset();
     }
 
     return (
@@ -33,7 +35,7 @@ const Banner = () => {
             <form className='banner' onSubmit={takeSearchValue}>
                 <div className="form-control">
                     <div className="input-group flex flex-col items-center">
-                        <h1 className="text-[48px] font-bold pb-[40px] pt-[120px]">We Grow By Helping People In Need</h1>
+                        <h1 className="text-[48px] font-bold pb-[40px] pt-[120px] mx-[20px]">We Grow By Helping People In Need</h1>
                         <div className="flex items-center pb-[210px]">
                             <input type="text" name='search' placeholder="Search by category" className="input input-bordered" />
                             <input type="submit" value="submit" className="form-control btn ml-[-12px] bg-[#FF444A]"></input>

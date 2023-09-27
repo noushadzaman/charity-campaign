@@ -1,8 +1,15 @@
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 
 const PerformedDonation = ({ donation }) => {
-    const { imageUrl, amount, category, title, colors } = donation;
+    const { id, imageUrl, amount, category, title, colors } = donation;
     const [first, second, third] = colors;
+
+    const navigate = useNavigate();
+
+    const viewDetail = () => {
+        navigate(`/donationdetail/${id}`)
+    }
 
     return (
         <div className={`flex bg-[${first}] rounded-lg`}>
@@ -12,7 +19,8 @@ const PerformedDonation = ({ donation }) => {
                     <span className={`rounded px-[10px] py-[4px] text-[14px] bg-[${second}] text-[${third}]`}>{category}</span>
                     <p className={`text-[black] mt-[8px] text-[20px] font-semibold`}>{title}</p>
                     <p className={`text-[${third}] mt-[8px] text-[20px] font-semibold`}>${amount}</p>
-                    <button className={` 
+                    <button onClick={viewDetail}
+                        className={` 
                     bg-[${third}]
                     ${category == 'Health' && "bg-[#0052FF]"}
                     ${category == 'Education' && "bg-[#FF444A]"}

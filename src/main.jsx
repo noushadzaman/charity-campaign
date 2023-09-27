@@ -12,16 +12,17 @@ import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
 import { getDonations } from './utilities/fakeDb';
 import Banner from './components/Banner/Banner';
+import ErrorPage from './components/Errorpage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
         element: <Banner></Banner>
-        // loader: () => fetch('donations.json')
       },
       {
         path: '/donation',

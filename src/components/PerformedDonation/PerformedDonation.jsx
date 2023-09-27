@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 
 const PerformedDonation = ({ donation }) => {
-    const { id, imageUrl, amount, category, title, colors } = donation;
+    const { imageUrl, amount, category, title, colors } = donation;
     const [first, second, third] = colors;
 
     return (
@@ -23,5 +24,9 @@ const PerformedDonation = ({ donation }) => {
         </div>
     );
 };
+
+PerformedDonation.propTypes = {
+    donation: PropTypes.object.isRequired,
+}
 
 export default PerformedDonation;

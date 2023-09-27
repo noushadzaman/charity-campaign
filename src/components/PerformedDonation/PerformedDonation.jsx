@@ -11,7 +11,13 @@ const PerformedDonation = ({ donation }) => {
                     <span className={`rounded px-[10px] py-[4px] text-[14px] bg-[${second}] text-[${third}]`}>{category}</span>
                     <p className={`text-[black] mt-[8px] text-[20px] font-semibold`}>{title}</p>
                     <p className={`text-[${third}] mt-[8px] text-[20px] font-semibold`}>${amount}</p>
-                    <button className={`btn bg-[${third}] text-[white] mt-[10px] mb-[20px] decoration-gray-800`}>View Details</button>
+                    <button className={` 
+                    bg-[${third}]
+                    ${category == 'Health' && "bg-[#0052FF]"}
+                    ${category == 'Education' && "bg-[#FF444A]"}
+                    ${category == 'Clothing' && "bg-[#79C23F]"}
+                    ${category == 'Food' && "bg-[#F87147]"}
+                    btn text-[white] mt-[10px] mb-[20px] decoration-gray-800`}>View Details</button>
                 </div>
             </div>
         </div>
